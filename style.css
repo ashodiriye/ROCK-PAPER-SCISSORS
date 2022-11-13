@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+#gameDiv{
+    width: 50%;
+	background-color: whitesmoke;
+    border: 3px solid;
+    border-radius:25px;
+    padding:10px;
+    text-align:center;
+
+}
+
+#playerText, #computerText, #resultText{
+    margin: 20px;
+}
+
+.choiceBtn{
+    line-height:30px;
+    width:150px;
+}
